@@ -1,6 +1,7 @@
 # Logistic Regression in scikit-learn
 
-This repository contains the [slides](https://docs.google.com/presentation/d/1hiLwnb1o62xNFSiMjSXczi8GL0CZB8GSO50h-kzrUAw/edit?usp=sharing) and code for the "Logistic Regression in scikit-learn" presentation I gave for the Data Science Society at Auburn University.
+This repository contains the code for the "Logistic Regression in scikit-learn" presentation I gave for the Data Science Society at Auburn University.
+The slides for the presentation can be found [here](https://docs.google.com/presentation/d/1hiLwnb1o62xNFSiMjSXczi8GL0CZB8GSO50h-kzrUAw/edit?usp=sharing).
 
 ## Cloning the repository
 
