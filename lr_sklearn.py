@@ -5,7 +5,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     confusion_matrix,
     ConfusionMatrixDisplay,
-    precision_recall_curve,
     PrecisionRecallDisplay,
     RocCurveDisplay,
 )
@@ -24,7 +23,6 @@ cmd.plot()
 plt.show()
 
 probs = clf.predict_proba(X)[:, 1]
-(precision, recall, thresholds) = precision_recall_curve(y, probs, pos_label="survived")
 prd = PrecisionRecallDisplay.from_predictions(
     y, probs, name="Logistic Regression", pos_label="survived", plot_chance_level=True
 )
